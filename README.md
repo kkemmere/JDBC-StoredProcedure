@@ -1,7 +1,6 @@
 # JDBC-StoredProcedure
-Java Database Connectivity program using stored procedure for query<br/>
-
 Simple program showcasing stored procedures using JDBC.<br/><br/>
+
 Program connects to database and uses a prepared statement to query all product codes. Then 2-6 of those product codes are randomly chosen
 to be included in the delimited string. The delimited string is then counted, put into an array and split. Final delimited string array is fed to a stored procedure one by one.<br/>
 
